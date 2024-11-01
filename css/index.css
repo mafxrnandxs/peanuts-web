@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    background-image: url("../assets/Social\ Media\ Snoopy_\ Keeping\ Peanuts\ Relevant.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+h1{
+    font-family: 'Secular One';
+    color: #fff;
+    font-size: 52px;
+}

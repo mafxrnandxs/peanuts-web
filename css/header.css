@@ -1,0 +1,26 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+
+}
+
+li {
+    margin: 0 20px ;
+}
+
+a {
+    font-family: Jaldi;
+    text-decoration: none;
+    color: #fff;
+}
+
+header, nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
