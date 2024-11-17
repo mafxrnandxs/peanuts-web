@@ -5,6 +5,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100dvh;
+    font-size: 1em;
     background-image: url("../assets/Social\ Media\ Snoopy_\ Keeping\ Peanuts\ Relevant.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,5 +23,15 @@ main{
 h1{
     font-family: 'Secular One';
     color: #fff;
-    font-size: 52px;
+    font-size: 2.5em;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
 }
